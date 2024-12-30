@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <h3>eXchanger</h3>
+  </div>
+
+  <nav>
+    <ul>
+    <li><a href = "index.html">Exchange Rate</a></li>
+    <li><a href = "calculator.html">Calculator</a></li>
+    <li><a href = "dashboard.html">Dashboard</a></li>
+    </ul>
+  </nav>
+
+
+  
+  <h1> Exchange Rate </h1>
+  <br>
+
+  <div class="container">
+    <h1 id = "rate"> </h1>
+  </div>
+
+  <br>
+<div class="exchanger">
+  <input type="number" id = "text0" placeholder="Amount" min="1"></input>
+  <br> <br>
+  
+  <input type="text" id = "text1" autocomplete="off" placeholder="From"></input>
+  <br> <br>
+  
+  <input type="text" id = "text2" autocomplete="off" placeholder="To"></input>
+  <br><br>
+  
+  <button onclick="onclickevent()"> Submit </button>
+  <br><br>
+  
+  <div class="container">
+    <h1 id = "money"> $00.00 </h1>
+  </div>
+</div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
