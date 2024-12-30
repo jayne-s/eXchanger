@@ -6,6 +6,8 @@ eXchanger is a web application built using HTML, CSS, and JS to facilitate excha
 
 ## Project Link: 
 
+https://jayne-s.github.io/eXchanger/
+
 ## Instructions: 
 
 For the dashboard page, select the currencies and click submit to view the corresponding exchange rates below. Select the same currencies and click submit to remove those exchange rates from the display. 
