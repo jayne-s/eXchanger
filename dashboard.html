@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <h3>eXchanger</h3>
+  </div>
+
+  <nav>
+    <ul>
+    <li><a href = "index.html">Exchange Rate</a></li>
+    <li><a href = "calculator.html">Calculator</a></li>
+    <li><a href = "dashboard.html">Dashboard</a></li>
+    </ul>
+    <br>
+  </nav>
+
+  <br>
+
+  <div id="box" style="height:50%; width:50%; border:1px solid black; overflow:auto;">
+  <form id = "myForm">
+    <br>
+    <input type="checkbox" id="AED" name="AED" value="AED">
+    <label for="AED"> AED</label><br>
+    <input type="checkbox" id="AFN" name="AFN" value="AFN">
+    <label for="AFN"> AFN</label><br>
+    <input type="checkbox" id="ALL" name="ALL" value="ALL">
+    <label for="ALL"> ALL</label><br>
+    
+    <input type="checkbox" id="AMD" name="AMD" value="AMD">
+    <label for="AMD"> AMD</label><br>
+    <input type="checkbox" id="ANG" name="ANG" value="ANG">
+    <label for="ANG"> ANG</label><br>
+    <input type="checkbox" id="AOA" name="AOA" value="AOA">
+    <label for="AOA"> AOA</label><br>
+    
+    <input type="checkbox" id="ARS" name="ARS" value="ARS">
+    <label for="ARS"> ARS</label><br>
+    <input type="checkbox" id="AUD" name="AUD" value="AUD">
+    <label for="AUD"> AUD</label><br>
+    <input type="checkbox" id="AWG" name="AWG" value="AWG">
+    <label for="AWG"> AWG</label><br>
+
+    <input type="checkbox" id="AZN" name="AZN" value="AZN">
+    <label for="AZN"> AZN</label><br>
+    <input type="checkbox" id="BAM" name="BAM" value="BAM">
+    <label for="BAM"> BAM</label><br>
+    <input type="checkbox" id="BBD" name="BBD" value="BBD">
+    <label for="BBD"> BBD</label><br>
+    
+    <input type="checkbox" id="BDT" name="BDT" value="BDT">
+     <label for="BDT"> BDT</label><br>
+     <input type="checkbox" id="BGN" name="BGN" value="BGN">
+     <label for="BGN"> BGN</label><br>
+     <input type="checkbox" id="BHD" name="BHD" value="BHD">
+     <label for="BHD"> BHD</label><br>
+
+    <input type="checkbox" id="BIF" name="BIF" value="BIF">
+     <label for="BIF"> BIF</label><br>
+     <input type="checkbox" id="BMD" name="BMD" value="BMD">
+     <label for="BMD"> BMD</label><br>
+     <input type="checkbox" id="BND" name="BND" value="BND">
+     <label for="BND"> BND</label><br>
+
+    <input type="checkbox" id="BOB" name="BOB" value="BOB">
+     <label for="BOB"> BOB</label><br>
+     <input type="checkbox" id="BRL" name="BRL" value="BRL">
+     <label for="BRL"> BRL</label><br>
+     <input type="checkbox" id="BSD" name="BSD" value="BSD">
+     <label for="BSD"> BSD</label><br>
+
+    <input type="checkbox" id="BTC" name="BTC" value="BTC">
+     <label for="BTC"> BTC</label><br>
+     <input type="checkbox" id="BTN" name="BTN" value="BTN">
+     <label for="BTN"> BTN</label><br>
+     <input type="checkbox" id="BWP" name="BWP" value="BWP">
+     <label for="BWP"> BWP</label><br>
+
+    <input type="checkbox" id="BYN" name="BYN" value="BYN">
+     <label for="BYN"> BYN</label><br>
+     <input type="checkbox" id="BYR" name="BYR" value="BYR">
+     <label for="BYR"> BYR</label><br>
+     <input type="checkbox" id="BZD" name="BZD" value="BZD">
+     <label for="BZD"> BZD</label><br>
+
+    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+    <label for="CAD"> CAD</label><br>
+    <input type="checkbox" id="CDF" name="CDF" value="CDF">
+    <label for="CDF"> CDF</label><br>
+    <input type="checkbox" id="CHF" name="CHF" value="CHF">
+    <label for="CHF"> CHF</label><br>
+
+    <input type="checkbox" id="CLF" name="CLF" value="CLF">
+    <label for="CLF"> CLF</label><br>
+    <input type="checkbox" id="CLP" name="CLP" value="CLP">
+    <label for="CLP"> CLP</label><br>
+    <input type="checkbox" id="CNH" name="CNH" value="CNH">
+    <label for="CNH"> CNH</label><br>
+    
+    <input type="checkbox" id="CNY" name="CNY" value="CNY">
+    <label for="CNY"> CNY</label><br>
+    <input type="checkbox" id="COP" name="COP" value="COP">
+    <label for="COP"> COP</label><br>
+    <input type="checkbox" id="CRC" name="CRC" value="CRC">
+    <label for="CRC"> CRC</label><br>
+    <input type="checkbox" id="CUC" name="CUC" value="CUC">
+    <label for="CUC"> CUC</label><br>
+    
+    <input type="checkbox" id="CUP" name="CUP" value="CUP">
+    <label for="CUP"> CUP</label><br>
+    <input type="checkbox" id="CVE" name="CVE" value="CVE">
+    <label for="CVE"> CVE</label><br>
+    <input type="checkbox" id="CZK" name="CZK" value="CZK">
+    <label for="CZK"> CZK</label><br>
+    
+    <input type="checkbox" id="DJF" name="DJF" value="DJF">
+    <label for="DJF"> DJF</label><br>
+    <input type="checkbox" id="DKK" name="DKK" value="DKK">
+    <label for="DKK"> DKK</label><br>
+    <input type="checkbox" id="DOP" name="DOP" value="DOP">
+    <label for="DOP"> DOP</label><br>
+    
+    <input type="checkbox" id="DZD" name="DZD" value="DZD">
+    <label for="DZD"> DZD</label><br>
+    <input type="checkbox" id="EGP" name="EGP" value="EGP">
+    <label for="EGP"> EGP</label><br>
+    <input type="checkbox" id="ERN" name="ERN" value="ERN">
+    <label for="ERN"> ERN</label><br>
+    
+    <input type="checkbox" id="ETB" name="ETB" value="ETB">
+    <label for="ETB"> ETB</label><br>
+    <input type="checkbox" id="EUR" name="EUR" value="EUR">
+    <label for="EUR"> EUR</label><br>
+    <input type="checkbox" id="FJD" name="FJD" value="FJD">
+    <label for="FJD"> FJD</label><br>
+    
+    <input type="checkbox" id="FKP" name="FKP" value="FKP">
+    <label for="FKP"> FKP</label><br>
+    <input type="checkbox" id="GBP" name="GBP" value="GBP">
+    <label for="GBP"> GBP</label><br>
+    <input type="checkbox" id="GEL" name="GEL" value="GEL">
+    <label for="GEL"> GEL</label><br>
+    
+    <input type="checkbox" id="GGP" name="GGP" value="GGP">
+    <label for="GGP"> GGP</label><br>
+    <input type="checkbox" id="GHS" name="GHS" value="GHS">
+    <label for="GHS"> GHS</label><br>
+    <input type="checkbox" id="GIP" name="GIP" value="GIP">
+    <label for="GIP"> GIP</label><br>
+    
+    <input type="checkbox" id="GMD" name="GMD" value="GMD">
+    <label for="GMD"> GMD</label><br>
+    <input type="checkbox" id="GNF" name="GNF" value="GNF">
+    <label for="GNF"> GNF</label><br>
+    <input type="checkbox" id="GTQ" name="GTQ" value="GTQ">
+    <label for="GTQ"> GTQ</label><br>
+    
+    <input type="checkbox" id="GYD" name="GYD" value="GYD">
+    <label for="GYD"> GYD</label><br>
+    <input type="checkbox" id="HKD" name="HKD" value="HKD">
+    <label for="HKD"> HKD</label><br>
+    <input type="checkbox" id="HNL" name="HNL" value="HNL">
+    <label for="HNL"> HNL</label><br>
+    
+    <input type="checkbox" id="HRK" name="HRK" value="HRK">
+    <label for="HRK"> HRK</label><br>
+    <input type="checkbox" id="HTG" name="HTG" value="HTG">
+    <label for="HTG"> HTG</label><br>
+    <input type="checkbox" id="HUF" name="HUF" value="HUF">
+    <label for="HUF"> HUF</label><br>
+    
+    <input type="checkbox" id="IDR" name="IDR" value="IDR">
+    <label for="IDR"> IDR</label><br>
+    <input type="checkbox" id="ILS" name="ILS" value="ILS">
+    <label for="ILS"> ILS</label><br>
+    <input type="checkbox" id="IMP" name="IMP" value="IMP">
+    <label for="IMP"> IMP</label><br>
+    
+    <input type="checkbox" id="INR" name="INR" value="INR">
+    <label for="INR"> INR</label><br>
+    <input type="checkbox" id="IQD" name="IQD" value="IQD">
+    <label for="IQD"> IQD</label><br>
+    <input type="checkbox" id="IRR" name="IRR" value="IRR">
+    <label for="IRR"> IRR</label><br>
+    
+    <input type="checkbox" id="ISK" name="ISK" value="ISK">
+    <label for="ISK"> ISK</label><br>
+    <input type="checkbox" id="JEP" name="JEP" value="JEP">
+    <label for="JEP"> JEP</label><br>
+    <input type="checkbox" id="JMD" name="JMD" value="JMD">
+    <label for="JMD"> JMD</label><br>
+    
+    <input type="checkbox" id="JOD" name="JOD" value="JOD">
+    <label for="JOD"> JOD</label><br>
+    <input type="checkbox" id="JPY" name="JPY" value="JPY">
+    <label for="JPY"> JPY</label><br>
+    <input type="checkbox" id="KES" name="KES" value="KES">
+    <label for="KES"> KES</label><br>
+    
+    <input type="checkbox" id="KGS" name="KGS" value="KGS">
+    <label for="KGS"> KGS</label><br>
+    <input type="checkbox" id="KHR" name="KHR" value="KHR">
+    <label for="KHR"> KHR</label><br>
+    <input type="checkbox" id="KMF" name="KMF" value="KMF">
+    <label for="KMF"> KMF</label><br>
+    
+    <input type="checkbox" id="KPW" name="KPW" value="KPW">
+    <label for="KPW"> KPW</label><br>
+    <input type="checkbox" id="KRW" name="KRW" value="KRW">
+    <label for="KRW"> KRW</label><br>
+    <input type="checkbox" id="KWD" name="KWD" value="KWD">
+    <label for="KWD"> KWD</label><br>
+    
+    <input type="checkbox" id="KYD" name="KYD" value="KYD">
+    <label for="KYD"> KYD</label><br>
+    <input type="checkbox" id="KZT" name="KZT" value="KZT">
+    <label for="KZT"> KZT</label><br>
+    <input type="checkbox" id="LAK" name="LAK" value="LAK">
+    <label for="LAK"> LAK</label><br>
+    
+    <input type="checkbox" id="LBP" name="LBP" value="LBP">
+    <label for="LBP"> LBP</label><br>
+    <input type="checkbox" id="LKR" name="LKR" value="LKR">
+    <label for="LKR"> LKR</label><br>
+    <input type="checkbox" id="LRD" name="LRD" value="LRD">
+    <label for="LRD"> LRD</label><br>
+    
+    <input type="checkbox" id="LSL" name="LSL" value="LSL">
+    <label for="LSL"> LSL</label><br>
+    <input type="checkbox" id="LTL" name="LTL" value="LTL">
+    <label for="LTL"> LTL</label><br>
+    <input type="checkbox" id="LVL" name="LVL" value="LVL">
+    <label for="LVL"> LVL</label><br>
+
+    <input type="checkbox" id="LYD" name="LYD" value="LYD">
+    <label for="LYD"> LYD</label><br>
+    <input type="checkbox" id="MAD" name="MAD" value="MAD">
+    <label for="MAD"> MAD</label><br>
+    <input type="checkbox" id="MDL" name="MDL" value="MDL">
+    <label for="MDL"> MDL</label><br>
+    
+    <input type="checkbox" id="MGA" name="MGA" value="MGA">
+    <label for="MGA"> MGA</label><br>
+    <input type="checkbox" id="MKD" name="MKD" value="MKD">
+    <label for="MKD"> MKD</label><br>
+    <input type="checkbox" id="MMK" name="MMK" value="MMK">
+    <label for="MMK"> MMK</label><br>
+    
+    <input type="checkbox" id="MNT" name="MNT" value="MNT">
+    <label for="MNT"> MNT</label><br>
+    <input type="checkbox" id="MOP" name="MOP" value="MOP">
+    <label for="MOP"> MOP</label><br>
+    <input type="checkbox" id="MRU" name="MRU" value="MRU">
+    <label for="MRU"> MRU</label><br>
+    
+    <input type="checkbox" id="MUR" name="MUR" value="MUR">
+    <label for="MUR"> MUR</label><br>
+    <input type="checkbox" id="MVR" name="MVR" value="MVR">
+    <label for="MVR"> MVR</label><br>
+    <input type="checkbox" id="MWK" name="MWK" value="MWK">
+    <label for="MWK"> MWK</label><br>
+    
+    <input type="checkbox" id="MXN" name="MXN" value="MXN">
+    <label for="MXN"> MXN</label><br>
+    <input type="checkbox" id="MYR" name="MYR" value="MYR">
+    <label for="MYR"> MYR</label><br>
+    <input type="checkbox" id="MZN" name="MZN" value="MZN">
+    <label for="MZN"> MZN</label><br>
+    
+    <input type="checkbox" id="NAD" name="NAD" value="NAD">
+    <label for="NAD"> NAD</label><br>
+    <input type="checkbox" id="NGN" name="NGN" value="NGN">
+    <label for="NGN"> NGN</label><br>
+    <input type="checkbox" id="NIO" name="NIO" value="NIO">
+    <label for="NIO"> NIO</label><br>
+    
+    <input type="checkbox" id="NOK" name="NOK" value="NOK">
+    <label for="NOK"> NOK</label><br>
+    <input type="checkbox" id="NPR" name="NPR" value="NPR">
+    <label for="NPR"> NPR</label><br>
+    <input type="checkbox" id="NZD" name="NZD" value="NZD">
+    <label for="NZD"> NZD</label><br>
+    
+    <input type="checkbox" id="OMR" name="OMR" value="OMR">
+    <label for="OMR"> OMR</label><br>
+    <input type="checkbox" id="PAB" name="PAB" value="PAB">
+    <label for="PAB"> PAB</label><br>
+    <input type="checkbox" id="PEN" name="PEN" value="PEN">
+    <label for="PEN"> PEN</label><br>
+    
+    <input type="checkbox" id="PGK" name="PGK" value="PGK">
+    <label for="PGK"> PGK</label><br>
+    <input type="checkbox" id="PHP" name="PHP" value="PHP">
+    <label for="PHP"> PHP</label><br>
+    <input type="checkbox" id="PKR" name="PKR" value="PKR">
+    <label for="PKR"> PKR</label><br>
+    
+    <input type="checkbox" id="PLN" name="PLN" value="PLN">
+    <label for="PLN"> PLN</label><br>
+    <input type="checkbox" id="PYG" name="PYG" value="PYG">
+    <label for="PYG"> PYG</label><br>
+    <input type="checkbox" id="QAR" name="QAR" value="QAR">
+    <label for="QAR"> QAR</label><br>
+    
+    <input type="checkbox" id="RON" name="RON" value="RON">
+    <label for="RON"> RON</label><br>
+    <input type="checkbox" id="RSD" name="RSD" value="RSD">
+    <label for="RSD"> RSD</label><br>
+    <input type="checkbox" id="RUB" name="RUB" value="RUB">
+    <label for="RUB"> RUB</label><br>
+    
+    <input type="checkbox" id="RWF" name="RWF" value="RWF">
+    <label for="RWF"> RWF</label><br>
+    <input type="checkbox" id="SAR" name="SAR" value="SAR">
+    <label for="SAR"> SAR</label><br>
+    <input type="checkbox" id="SBD" name="SBD" value="SBD">
+    <label for="SBD"> SBD</label><br>
+    
+    <input type="checkbox" id="SCR" name="SCR" value="SCR">
+    <label for="SCR"> SCR</label><br>
+    <input type="checkbox" id="SDG" name="SDG" value="SDG">
+    <label for="SDG"> SDG</label><br>
+    <input type="checkbox" id="SEK" name="SEK" value="SEK">
+    <label for="SEK"> SEK</label><br>
+    
+    <input type="checkbox" id="SGD" name="SGD" value="SGD">
+    <label for="SGD"> SGD</label><br>
+    <input type="checkbox" id="SHP" name="SHP" value="SHP">
+    <label for="SHP"> SHP</label><br>
+    <input type="checkbox" id="SLE" name="SLE" value="SLE">
+    <label for="SLE"> SLE</label><br>
+    
+    <input type="checkbox" id="SLL" name="SLL" value="SLL">
+    <label for="SLL"> SLL</label><br>
+    <input type="checkbox" id="SOS" name="SOS" value="SOS">
+    <label for="SOS"> SOS</label><br>
+    <input type="checkbox" id="SRD" name="SRD" value="SRD">
+    <label for="SRD"> SRD</label><br>
+    
+    <input type="checkbox" id="STD" name="STD" value="STD">
+    <label for="STD"> STD</label><br>
+    <input type="checkbox" id="SVC" name="SVC" value="SVC">
+    <label for="SVC"> SVC</label><br>
+    <input type="checkbox" id="SYP" name="SYP" value="SYP">
+    <label for="SYP"> SYP</label><br>
+    
+    <input type="checkbox" id="SZL" name="SZL" value="SZL">
+    <label for="SZL"> SZL</label><br>
+    <input type="checkbox" id="THB" name="THB" value="THB">
+    <label for="THB"> THB</label><br>
+    <input type="checkbox" id="TJS" name="TJS" value="TJS">
+    <label for="TJS"> TJS</label><br>
+    
+    <input type="checkbox" id="TMT" name="TMT" value="TMT">
+    <label for="TMT"> TMT</label><br>
+    <input type="checkbox" id="TND" name="TND" value="TND">
+    <label for="TND"> TND</label><br>
+    <input type="checkbox" id="TOP" name="TOP" value="TOP">
+    <label for="TOP"> TOP</label><br>
+    
+    <input type="checkbox" id="TRY" name="TRY" value="TRY">
+    <label for="TRY"> TRY</label><br>
+    <input type="checkbox" id="TTD" name="TTD" value="TTD">
+    <label for="TTD"> TTD</label><br>
+    <input type="checkbox" id="TWD" name="TWD" value="TWD">
+    <label for="TWD"> TWD</label><br>
+    
+    <input type="checkbox" id="TZS" name="TZS" value="TZS">
+    <label for="TZS"> TZS</label><br>
+    <input type="checkbox" id="UAH" name="UAH" value="UAH">
+    <label for="UAH"> UAH</label><br>
+    <input type="checkbox" id="UGX" name="UGX" value="UGX">
+    <label for="UGX"> UGX</label><br>
+    
+    <input type="checkbox" id="USD" name="USD" value="USD">
+    <label for="USD"> USD</label><br>
+    <input type="checkbox" id="UYU" name="UYU" value="UYU">
+    <label for="UYU"> UYU</label><br>
+    <input type="checkbox" id="UZS" name="UZS" value="UZS">
+    <label for="UZS"> UZS</label><br>
+    <input type="checkbox" id="VES" name="VES" value="VES">
+    <label for="VES"> VES</label><br>
+
+    <input type="checkbox" id="VES" name="VES" value="VES">
+    <label for="VES"> VES</label><br>
+    <input type="checkbox" id="VND" name="VND" value="VND">
+    <label for="VND"> VND</label><br>
+    <input type="checkbox" id="VUV" name="VUV" value="VUV">
+    <label for="VUV"> VUV</label><br>
+    
+    <input type="checkbox" id="WST" name="WST" value="WST">
+    <label for="WST"> WST</label><br>
+    <input type="checkbox" id="XAF" name="XAF" value="XAF">
+    <label for="XAF"> XAF</label><br>
+    <input type="checkbox" id="XAG" name="XAG" value="XAG">
+    <label for="XAG"> XAG</label><br>
+    
+    <input type="checkbox" id="XAU" name="XAU" value="XAU">
+    <label for="XAU"> XAU</label><br>
+    <input type="checkbox" id="XCD" name="XCD" value="XCD">
+    <label for="XCD"> XCD</label><br>
+    <input type="checkbox" id="XDR" name="XDR" value="XDR">
+    <label for="XDR"> XDR</label><br>
+    
+    <input type="checkbox" id="XOF" name="XOF" value="XOF">
+    <label for="XOF"> XOF</label><br>
+    <input type="checkbox" id="XPF" name="XPF" value="XPF">
+    <label for="XPF"> XPF</label><br>
+    <input type="checkbox" id="YER" name="YER" value="YER">
+    <label for="YER"> YER</label><br>
+    
+    <input type="checkbox" id="ZAR" name="ZAR" value="ZAR">
+    <label for="ZAR"> ZAR</label><br>
+    <input type="checkbox" id="ZMK" name="ZMK" value="ZMK">
+    <label for="ZMK"> ZMK</label><br>
+    <input type="checkbox" id="ZMW" name="ZMW" value="ZMW">
+    <label for="ZMW"> ZMW</label><br>
+    <input type="checkbox" id="ZWL" name="ZWL" value="ZWL">
+    <label for="ZWL"> ZWL</label><br>
+    
+    <br>
+  </form>
+ </div>
+  <br>
+  <div id = "parentDiv">
+    <button onclick="submit()">Submit</button>
+    <br>
+    <h1>Rates Dashboard</h1>
+    <p><strong>Base Currency is EUR.</strong></p>
+  </div>
+
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
