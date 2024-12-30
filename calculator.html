@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+      <script src= 
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
+          integrity= 
+  "sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"></script> 
+      <script src= 
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
+          integrity= 
+  "sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"></script> 
+  <title>replit</title>
+  <link href="style1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <h3>eXchanger</h3>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Exchange Rate</a></li>
+      <li><a href="calculator.html">Calculator</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+    </ul>
+  </nav>
+
+  <br><br>
+
+  <table id="calculator">
+    <tr>
+      <td colspan="3">
+        <input type="text" id="result">
+      </td>
+      <td><input type="button" value="c" onclick="clr()"></td>
+    </tr>
+
+    <tr>
+      <td><input type="button" value="1" onclick="dis('1')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="2" onclick="dis('2')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="3" onclick="dis('3')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="/" onclick="dis('/')" onkeydown="myFunction(event)"></td>
+    </tr>
+
+    <tr>
+      <td><input type="button" value="4" onclick="dis('4')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="5" onclick="dis('5')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="6" onclick="dis('6')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="*" onclick="dis('*')" onkeydown="myFunction(event)"></td>
+    </tr>
+
+    <tr>
+      <td><input type="button" value="7" onclick="dis('7')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="8" onclick="dis('8')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="9" onclick="dis('9')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="-" onclick="dis('-')" onkeydown="myFunction(event)"></td>
+    </tr>
+
+    <tr>
+      <td><input type="button" value="0" onclick="dis('0')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="." onclick="dis('.')" onkeydown="myFunction(event)"></td>
+      <td><input type="button" value="=" onclick="solve()"></td>
+      <td><input type="button" value="+" onclick="dis('+')" onkeydown="myFunction(event)"></td>
+    </tr>
+
+  </table>
+
+
+  <script src="script1.js"></script>
+</body>
+
+</html>
